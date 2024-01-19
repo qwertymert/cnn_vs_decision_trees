@@ -13,7 +13,7 @@ from feature_extract import FeatureExtractor
 seed = 0
 torch.manual_seed(seed)
 
-np.random.seed(0)
+np.random.seed(seed)
 
 
 image_size = 256
